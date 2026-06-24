@@ -3587,58 +3587,6 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3000,
-      "removePrice": 1000,
-      "degree": 0,
-      "description": "Childbirth was kind to Timmy. he developed a mature body with curves in all the right places.",
-      "stats": [
-        "+1.0 beauty"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+1.0 beauty"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Mature Ladies",
-        "karmaTypeForAdding": null
-      },
-      "defName": "SEX_MatureLady",
-      "name": "maturebody"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 1000,
-      "removePrice": 1000,
-      "degree": 0,
-      "description": "Childbirth was not kind to Timmy.",
-      "stats": [
-        "-1.0 beauty"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-1.0 beauty"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Mature Ladies",
-        "karmaTypeForAdding": null
-      },
-      "defName": "SEX_WeakLady",
-      "name": "feeblebody"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -3745,32 +3693,6 @@
       },
       "defName": "HAR_Xenophobia",
       "name": "xenophile"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmy likes to be up during the day, and sleep during the night.\n\nhe gets a mood penalty if awake at night (23h-6h) and mood bonus if awake during the day (11h-18h).",
-      "stats": [],
-      "conflicts": [
-        "nightowl"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "nightowl"
-        ],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Expanded Biotech Style Genes - All in One",
-        "karmaTypeForAdding": null
-      },
-      "defName": "EBSG_EarlyBird",
-      "name": "earlybird"
     },
     {
       "canAdd": true,
@@ -54168,28 +54090,6 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy enjoys the solitude and tranquility inherent to long fishing sessions. he will prefer fishing above other activities.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Vanilla Fishing Expanded",
-        "karmaTypeForAdding": null
-      },
-      "defName": "VCEF_Fisherman",
-      "name": "fisherman"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
       "description": "Either the body or mind of Timmy is one of insight and experience. While some find them old fashioned, others will respect their guidance.",
       "stats": [],
       "conflicts": [],
@@ -54267,278 +54167,6 @@
       },
       "defName": "SEX_Affectionate",
       "name": "affectionate"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmy loves to sleep and always feels like he hasn't had enough rest.",
-      "stats": [
-        "-20% rest rate multiplier"
-      ],
-      "conflicts": [
-        "quicksleeper",
-        "greedycat"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "quicksleeper",
-          "greedycat"
-        ],
-        "stats": [
-          "-20% rest rate multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Race",
-        "karmaTypeForAdding": null
-      },
-      "defName": "LazyCat",
-      "name": "lazycat"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmy always carries a lot of snacks with he, and he never stops munching on them.",
-      "stats": [
-        "Only mental break \"Binging_Food\" allowed.",
-        "+2 cooking"
-      ],
-      "conflicts": [
-        "gourmand",
-        "lazycat"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [
-          "gourmand",
-          "lazycat"
-        ],
-        "stats": [
-          "Only mental break \"Binging_Food\" allowed.",
-          "+2 cooking"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Race",
-        "karmaTypeForAdding": null
-      },
-      "defName": "GreedyCat",
-      "name": "greedycat"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "From some experience, Timmy is very afraid of fire.",
-      "stats": [
-        "-5 cooking"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-5 cooking"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Race",
-        "karmaTypeForAdding": null
-      },
-      "defName": "FireFear",
-      "name": "firefear"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "PAWN nameDef has innate resistance to toxic.",
-      "stats": [
-        "+25% toxic environment resistance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+25% toxic environment resistance"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Race",
-        "karmaTypeForAdding": null
-      },
-      "defName": "ToxicResistance",
-      "name": "toxicresistance"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmy has exceptional eyesight.",
-      "stats": [
-        "+2 shooting",
-        "+8.0 shooting accuracy"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+2 shooting",
-          "+8.0 shooting accuracy"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Race",
-        "karmaTypeForAdding": null
-      },
-      "defName": "SharpEye",
-      "name": "sharpeye"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmy's body has suffered severe wound that has caused irreparable damage.",
-      "stats": [
-        "-0.15 move speed",
-        "-8% pain shock threshold",
-        "x105% incoming damage multiplier"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-0.15 move speed",
-          "-8% pain shock threshold",
-          "x105% incoming damage multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Race",
-        "karmaTypeForAdding": null
-      },
-      "defName": "OldWound",
-      "name": "oldwound"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmy is a valor supported by kiiros.",
-      "stats": [
-        "+5 melee",
-        "+25.00% social impact",
-        "+0.40 move speed",
-        "+20% pain shock threshold",
-        "-30% mental break threshold",
-        "+10.0 melee dodge chance",
-        "+5.0 melee hit chance",
-        "-20% sleep fall rate",
-        "+12% injury healing factor",
-        "x50% incoming damage multiplier"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+5 melee",
-          "+25.00% social impact",
-          "+0.40 move speed",
-          "+20% pain shock threshold",
-          "-30% mental break threshold",
-          "+10.0 melee dodge chance",
-          "+5.0 melee hit chance",
-          "-20% sleep fall rate",
-          "+12% injury healing factor",
-          "x50% incoming damage multiplier"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Race",
-        "karmaTypeForAdding": null
-      },
-      "defName": "KittyValor",
-      "name": "kittyvalor!"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1,
-      "description": "Timmy Not willing to spend money. Timmy always haggles as much as he can in trading, and never goes shopping in spare time.",
-      "stats": [
-        "+8.00% trade price improvement"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+8.00% trade price improvement"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Story: Events Expanded",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Kiiro_ShoppingTendency",
-      "name": "stingy"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1,
-      "description": "Timmy likes to buy things and spends money lavishly. Timmy visits stores more often and always spends more.",
-      "stats": [
-        "-8.00% trade price improvement"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "-8.00% trade price improvement"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Kiiro Story: Events Expanded",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Kiiro_ShoppingTendency",
-      "name": "shopaholic"
     },
     {
       "canAdd": true,
@@ -54919,6 +54547,1596 @@
       },
       "defName": "RKTrait_YunDanFengQing",
       "name": "takeiteasy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual is the Protagonist — chosen by fate itself. They gain experience at an extraordinary rate and grow faster than anyone else.\n\n• x10 XP multiplier\n• +2 bonus stat points per level\n• Cannot have: Antagonist, Regressor, Summoned Hero",
+      "stats": [],
+      "conflicts": [
+        "antagonist",
+        "regressor",
+        "summonedhero",
+        "reincarnated",
+        "hollowcore"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "antagonist",
+          "regressor",
+          "summonedhero",
+          "reincarnated",
+          "hollowcore"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Protagonist",
+      "name": "protagonist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual walks the path of the Antagonist — feared and reviled. They grow powerful through conflict, gaining massive combat bonuses, but their very presence unsettles others.\n\n• x8 XP multiplier\n• +25% melee damage\n• +10% move speed\n• -25% social impact\n• -25 opinion from all other pawns\n• Cannot have: Protagonist, Summoned Hero",
+      "stats": [
+        "-25.00% social impact",
+        "x125% melee damage factor",
+        "x110% move speed"
+      ],
+      "conflicts": [
+        "protagonist",
+        "summonedhero",
+        "reincarnated",
+        "hollowcore"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "protagonist",
+          "summonedhero",
+          "reincarnated",
+          "hollowcore"
+        ],
+        "stats": [
+          "-25.00% social impact",
+          "x125% melee damage factor",
+          "x110% move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Antagonist",
+      "name": "antagonist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual has been reincarnated — reborn into a new life with memories of the old. Their level and stats were reset, but they retained their constellation progress and earned powerful growth bonuses.\n\n• Resets level to 1 and all stats to base (New Game+)\n• x5 XP multiplier\n• +10 bonus star points\n• +1 star point every 3 levels instead of 5\n• Constellation tree progress preserved\n• Cannot have: Protagonist, Antagonist, Hollow Core",
+      "stats": [],
+      "conflicts": [
+        "protagonist",
+        "antagonist",
+        "hollowcore"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "protagonist",
+          "antagonist",
+          "hollowcore"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Reincarnated",
+      "name": "reincarnated"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual has regressed — returned to the past with fragments of future knowledge. They level faster and can freely readapt their constellation at any time.\n\n• x4 XP multiplier\n• Free constellation respec (always)\n• Cannot have: Protagonist",
+      "stats": [],
+      "conflicts": [
+        "protagonist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "protagonist"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Regressor",
+      "name": "regressor"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual was summoned from another world as a hero. They gain power rapidly and are mentally resilient, but the displacement from their home world weighs on them.\n\n• x3 XP multiplier\n• +1 bonus stat point per level\n• Highly resistant to mental breaks\n• +25% social impact\n• -8 mood (displaced from home)\n• Cannot have: Protagonist, Antagonist",
+      "stats": [
+        "-10% mental break threshold",
+        "+25.00% social impact"
+      ],
+      "conflicts": [
+        "protagonist",
+        "antagonist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "protagonist",
+          "antagonist"
+        ],
+        "stats": [
+          "-10% mental break threshold",
+          "+25.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_SummonedHero",
+      "name": "summonedhero"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Born with exceptional latent potential. This individual earns bonus star points as they level, allowing them to unlock more constellation nodes.\n\n• +1 bonus star point every 5 levels (2 instead of 1)",
+      "stats": [],
+      "conflicts": [
+        "hollowcore",
+        "sealedpower"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "hollowcore",
+          "sealedpower"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_NaturalTalent",
+      "name": "naturaltalent"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "A genius who absorbs knowledge at an astonishing rate. Their mind operates on another level entirely.\n\n• x2 XP multiplier\n• +50% research speed",
+      "stats": [
+        "x150% research speed factor"
+      ],
+      "conflicts": [
+        "slowgrind",
+        "battlemaniac",
+        "genius"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "slowgrind",
+          "battlemaniac",
+          "genius"
+        ],
+        "stats": [
+          "x150% research speed factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Prodigy",
+      "name": "prodigy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Starts slow but becomes unstoppable. XP gain scales dramatically with level — weak early, godlike late.\n\n• Level 1-10: x0.5 XP\n• Level 11-25: x1.0 XP\n• Level 26-50: x1.5 XP\n• Level 51-100: x2.0 XP\n• Level 101+: x3.0 XP",
+      "stats": [],
+      "conflicts": [
+        "quicklearner"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "quicklearner"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_LateBloomer",
+      "name": "latebloomer"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Grows and gains power faster than most. A reliable, steady advantage in all situations.\n\n• x1.5 XP multiplier",
+      "stats": [],
+      "conflicts": [
+        "slowgrind",
+        "latebloomer"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "slowgrind",
+          "latebloomer"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_QuickLearner",
+      "name": "quicklearner"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Levels slowly but squeezes maximum potential from every level gained. Quality over speed.\n\n• x0.5 XP multiplier\n• +2 bonus stat points per level",
+      "stats": [],
+      "conflicts": [
+        "quicklearner",
+        "prodigy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "quicklearner",
+          "prodigy"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_SlowGrind",
+      "name": "slowgrind"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Experiences sudden surges of power at regular intervals, gaining massive stat boosts at milestone levels.\n\n• +5 bonus stat points every 10 levels",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_PowerSpike",
+      "name": "powerspike"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Dormant power awakens at level 25, dramatically increasing all stat effectiveness. Before awakening, the pawn is unremarkable.\n\n• Below level 25: -10% all stats\n• Level 25+: +50% all stat effectiveness",
+      "stats": [],
+      "conflicts": [
+        "sealedpower"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "sealedpower"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_AwakenedPotential",
+      "name": "awakenedpotential"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "A towering intellect in a mediocre body. Mental stats grow twice as fast, but physical stats grow at half speed.\n\n• INT and WIS stat gains doubled\n• STR and VIT stat gains halved",
+      "stats": [],
+      "conflicts": [
+        "prodigy",
+        "battlemaniac"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "prodigy",
+          "battlemaniac"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Genius",
+      "name": "genius"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Lives only for battle. Gains massively increased combat XP but is nearly incapable of learning from peaceful activities.\n\n• x3 combat XP (damage, kills)\n• x0.1 work/social XP\n• +15% melee dodge chance",
+      "stats": [
+        "+0.2 melee dodge chance"
+      ],
+      "conflicts": [
+        "prodigy",
+        "genius",
+        "merchant'seye",
+        "craftsman'ssoul"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "prodigy",
+          "genius",
+          "merchant'seye",
+          "craftsman'ssoul"
+        ],
+        "stats": [
+          "+0.2 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_BattleManiac",
+      "name": "battlemaniac"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "When wounded, primal rage surges through their veins. The more they bleed, the harder they fight.\n\n• Below 50% HP: +30% melee damage, +15% move speed\n• Below 25% HP: +60% melee damage, +30% move speed\n• -10% mental break threshold (easier to break)",
+      "stats": [
+        "+10% mental break threshold"
+      ],
+      "conflicts": [
+        "ironwill",
+        "fortress"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "ironwill",
+          "fortress"
+        ],
+        "stats": [
+          "+10% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_BerserkerBlood",
+      "name": "berserkerblood"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "An unbreakable mind forged through hardship. Nearly immune to mental breaks and pain, but emotionally distant.\n\n• -25% mental break threshold\n• +30% pain shock threshold\n• -20% social impact",
+      "stats": [
+        "-25% mental break threshold",
+        "+30% pain shock threshold",
+        "-20.00% social impact"
+      ],
+      "conflicts": [
+        "berserkerblood",
+        "glasscannon",
+        "iron-willed",
+        "steadfast",
+        "nervous",
+        "volatile"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "berserkerblood",
+          "glasscannon",
+          "iron-willed",
+          "steadfast",
+          "nervous",
+          "volatile"
+        ],
+        "stats": [
+          "-25% mental break threshold",
+          "+30% pain shock threshold",
+          "-20.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_IronWill",
+      "name": "ironwill"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Devastatingly powerful but dangerously fragile. Every attack hits like a truck, but they can't take a hit.\n\n• +50% melee damage\n• +30% ranged combat effectiveness\n• VIT effectiveness halved",
+      "stats": [
+        "x150% melee damage factor",
+        "x130% shooting accuracy"
+      ],
+      "conflicts": [
+        "fortress",
+        "ironwill"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "fortress",
+          "ironwill"
+        ],
+        "stats": [
+          "x150% melee damage factor",
+          "x130% shooting accuracy"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_GlassCannon",
+      "name": "glasscannon"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "An immovable defensive bastion. Incredibly tough and resistant to damage, but slow and lacks offensive punch.\n\n• +20% natural armor (all types)\n• -25% move speed\n• -20% melee damage",
+      "stats": [
+        "+20.0% Armor - Sharp",
+        "+20.0% Armor - Blunt",
+        "+20.0% Armor - Heat",
+        "x75% move speed",
+        "x80% melee damage factor"
+      ],
+      "conflicts": [
+        "glasscannon",
+        "shadowstep",
+        "berserkerblood",
+        "fragilevessel"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "glasscannon",
+          "shadowstep",
+          "berserkerblood",
+          "fragilevessel"
+        ],
+        "stats": [
+          "+20.0% Armor - Sharp",
+          "+20.0% Armor - Blunt",
+          "+20.0% Armor - Heat",
+          "x75% move speed",
+          "x80% melee damage factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Fortress",
+      "name": "fortress"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Moves like a shadow, nearly impossible to pin down. Exceptional evasion and speed, but lacks the constitution to take hits.\n\n• +25% move speed\n• +20% melee dodge chance\n• -10% melee damage",
+      "stats": [
+        "+0.2 melee dodge chance",
+        "x125% move speed",
+        "x90% melee damage factor"
+      ],
+      "conflicts": [
+        "fortress"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "fortress"
+        ],
+        "stats": [
+          "+0.2 melee dodge chance",
+          "x125% move speed",
+          "x90% melee damage factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_ShadowStep",
+      "name": "shadowstep"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Possesses primal hunting instincts — an innate sense for combat and danger that enhances all fighting capabilities.\n\n• +15% melee hit chance\n• +15% shooting accuracy\n• -15% trap spring chance",
+      "stats": [
+        "+0.2 melee hit chance",
+        "+0.2 shooting accuracy",
+        "-15% trap spring chance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.2 melee hit chance",
+          "+0.2 shooting accuracy",
+          "-15% trap spring chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_PredatorInstinct",
+      "name": "predator'sinstinct"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Fate refuses to let this individual die. When struck by a killing blow, they miraculously survive — but the experience leaves a permanent mark on their psyche.\n\n• Cheat death: Survive lethal damage once every 3 days\n• +20% pain shock threshold\n• -5 mood (touched by death) after triggering",
+      "stats": [
+        "+20% pain shock threshold"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+20% pain shock threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Undying",
+      "name": "undying"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Blessed with exceptional physical strength but lacks finesse.\n\n• STR stat effectiveness x1.5\n• DEX stat effectiveness x0.75",
+      "stats": [],
+      "conflicts": [
+        "agile"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "agile"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Mighty",
+      "name": "mighty"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Graceful and quick with exceptional reflexes, but physically weaker.\n\n• DEX stat effectiveness x1.5\n• STR stat effectiveness x0.75",
+      "stats": [],
+      "conflicts": [
+        "mighty"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "mighty"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Agile",
+      "name": "agile"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "An iron constitution that shrugs off what would fell others, but spiritually dulled.\n\n• VIT stat effectiveness x1.5\n• WIS stat effectiveness x0.75",
+      "stats": [],
+      "conflicts": [
+        "enlightened"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "enlightened"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Resilient",
+      "name": "resilient"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "A sharp analytical mind that processes information at incredible speeds, but socially awkward.\n\n• INT stat effectiveness x1.5\n• CHA stat effectiveness x0.75",
+      "stats": [],
+      "conflicts": [
+        "silvertongue"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "silvertongue"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Brilliant",
+      "name": "brilliant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Deeply perceptive and spiritually attuned. Great wisdom comes at the cost of physical endurance.\n\n• WIS stat effectiveness x1.5\n• VIT stat effectiveness x0.75",
+      "stats": [],
+      "conflicts": [
+        "resilient"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "resilient"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Enlightened",
+      "name": "enlightened"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "A natural-born leader and diplomat whose words carry weight, but lacks analytical depth.\n\n• CHA stat effectiveness x1.5\n• INT stat effectiveness x0.75",
+      "stats": [],
+      "conflicts": [
+        "brilliant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "brilliant"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_SilverTongue",
+      "name": "silvertongue"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "An innate sense for value and negotiation. Always gets the best deals.\n\n• +25% trade price improvement\n• +20% negotiation ability",
+      "stats": [
+        "+25.00% trade price improvement",
+        "+20.00% negotiation ability"
+      ],
+      "conflicts": [
+        "battlemaniac"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "battlemaniac"
+        ],
+        "stats": [
+          "+25.00% trade price improvement",
+          "+20.00% negotiation ability"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_MerchantEye",
+      "name": "merchant'seye"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "A born artisan with an instinctive understanding of materials and construction. Everything they make is a cut above.\n\n• +25% work speed (all types)\n• +1 crafting quality tier chance",
+      "stats": [
+        "x125% global work speed"
+      ],
+      "conflicts": [
+        "battlemaniac"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "battlemaniac"
+        ],
+        "stats": [
+          "x125% global work speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_CraftsmanSoul",
+      "name": "craftsman'ssoul"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Has an uncanny bond with animals. Creatures of all kinds are drawn to this individual, making taming and training trivially easy.\n\n• +40% tame animal chance\n• +30% train animal chance\n• +25% animal gather yield\n• Animals won't attack unprovoked",
+      "stats": [
+        "+40.00% tame animal chance",
+        "+30.00% train animal chance",
+        "+25% animal gather yield"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+40.00% tame animal chance",
+          "+30.00% train animal chance",
+          "+25% animal gather yield"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_BeastWhisperer",
+      "name": "beastwhisperer"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Healing flows through their hands like magic. Their medical skills far exceed what training alone could explain.\n\n• +30% medical tend quality\n• +25% surgery success chance\n• +20% immunity gain speed",
+      "stats": [
+        "+30% medical tend quality",
+        "+25% medical surgery success chance",
+        "x120% immunity gain speed factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+30% medical tend quality",
+          "+25% medical surgery success chance",
+          "x120% immunity gain speed factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_HealerTouch",
+      "name": "healer'stouch"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Fortune favors them endlessly. Good things just seem to happen around this individual.\n\n• +15% surgery success\n• +10% shooting accuracy\n• +10% trade prices\n• +5 mood (feeling lucky)",
+      "stats": [
+        "+15% medical surgery success chance",
+        "+0.1 shooting accuracy",
+        "+10.00% trade price improvement"
+      ],
+      "conflicts": [
+        "cursedluck"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "cursedluck"
+        ],
+        "stats": [
+          "+15% medical surgery success chance",
+          "+0.1 shooting accuracy",
+          "+10.00% trade price improvement"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Lucky",
+      "name": "lucky"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Terrible luck plagues them, yet somehow they thrive in adversity. Misfortune strengthens them in mysterious ways.\n\n• x2 XP multiplier\n• -15% surgery success\n• -10% trade prices\n• +20% melee damage\n• -5 mood (cursed by fate)",
+      "stats": [
+        "-15% medical surgery success chance",
+        "-10.00% trade price improvement",
+        "x120% melee damage factor"
+      ],
+      "conflicts": [
+        "lucky"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "lucky"
+        ],
+        "stats": [
+          "-15% medical surgery success chance",
+          "-10.00% trade price improvement",
+          "x120% melee damage factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_CursedLuck",
+      "name": "cursedluck"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Their spiritual core is shattered — they can channel raw power but cannot form the connections needed for constellation skills.\n\n• x3 XP multiplier\n• Cannot unlock any constellation nodes\n• No star points gained",
+      "stats": [],
+      "conflicts": [
+        "naturaltalent",
+        "protagonist",
+        "antagonist",
+        "reincarnated"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "naturaltalent",
+          "protagonist",
+          "antagonist",
+          "reincarnated"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_HollowCore",
+      "name": "hollowcore"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Their body wasn't built to contain this much power. They grow rapidly but their physical form deteriorates under the strain.\n\n• x2.5 XP multiplier\n• -50% max health\n• VIT effectiveness halved",
+      "stats": [],
+      "conflicts": [
+        "fortress",
+        "resilient"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "fortress",
+          "resilient"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_FragileVessel",
+      "name": "fragilevessel"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Grows stronger through failure. Each defeat fuels their determination to improve.\n\n• Permanent +10% XP bonus\n• x2 XP for 3 days after being downed\n• -5% melee damage",
+      "stats": [
+        "x95% melee damage factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x95% melee damage factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_EchoOfDefeat",
+      "name": "echoofdefeat"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Immense power sealed away, waiting to be unleashed. Weak and stunted until the seal breaks at level 25, then gains an explosive power surge.\n\n• Before level 25: -30% all stats, no star points\n• At level 25: Seal breaks!\n• After level 25: Double stat points per level (up to +2 bonus), +2 star points per 5 levels",
+      "stats": [],
+      "conflicts": [
+        "awakenedpotential",
+        "naturaltalent"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "awakenedpotential",
+          "naturaltalent"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_SealedPower",
+      "name": "sealedpower"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual is recognized as an F-Rank - the weakest classification. Others look down on them with pity or contempt, and their presence commands no respect.",
+      "stats": [
+        "-0.5 beauty",
+        "-30.00% social impact",
+        "-20.00% negotiation ability",
+        "-10.00% trade price improvement",
+        "x50% market value"
+      ],
+      "conflicts": [
+        "ranke",
+        "rankd",
+        "rankc",
+        "rankb",
+        "ranka",
+        "ranks",
+        "rankss",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "ranke",
+          "rankd",
+          "rankc",
+          "rankb",
+          "ranka",
+          "ranks",
+          "rankss",
+          "ranksss"
+        ],
+        "stats": [
+          "-0.5 beauty",
+          "-30.00% social impact",
+          "-20.00% negotiation ability",
+          "-10.00% trade price improvement",
+          "x50% market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_F",
+      "name": "rankf"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual is classified as E-Rank - below average but not completely worthless. They are often overlooked and struggle to gain recognition.",
+      "stats": [
+        "-0.3 beauty",
+        "-15.00% social impact",
+        "-10.00% negotiation ability",
+        "x75% market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "rankd",
+        "rankc",
+        "rankb",
+        "ranka",
+        "ranks",
+        "rankss",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "rankd",
+          "rankc",
+          "rankb",
+          "ranka",
+          "ranks",
+          "rankss",
+          "ranksss"
+        ],
+        "stats": [
+          "-0.3 beauty",
+          "-15.00% social impact",
+          "-10.00% negotiation ability",
+          "x75% market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_E",
+      "name": "ranke"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual holds a D-Rank classification - thoroughly average. They neither stand out nor fall behind, blending into the crowd.",
+      "stats": [
+        "+0.00% social impact",
+        "x100% market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "ranke",
+        "rankc",
+        "rankb",
+        "ranka",
+        "ranks",
+        "rankss",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "ranke",
+          "rankc",
+          "rankb",
+          "ranka",
+          "ranks",
+          "rankss",
+          "ranksss"
+        ],
+        "stats": [
+          "+0.00% social impact",
+          "x100% market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_D",
+      "name": "rankd"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual is recognized as C-Rank - a competent person above the common masses. They command modest respect and are seen as reliable.",
+      "stats": [
+        "+0.3 beauty",
+        "+10.00% social impact",
+        "+5.00% negotiation ability",
+        "x150% market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "ranke",
+        "rankd",
+        "rankb",
+        "ranka",
+        "ranks",
+        "rankss",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "ranke",
+          "rankd",
+          "rankb",
+          "ranka",
+          "ranks",
+          "rankss",
+          "ranksss"
+        ],
+        "stats": [
+          "+0.3 beauty",
+          "+10.00% social impact",
+          "+5.00% negotiation ability",
+          "x150% market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_C",
+      "name": "rankc"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual has achieved B-Rank status - a skilled veteran worthy of respect. Their reputation precedes them, and others treat them with deference.",
+      "stats": [
+        "+0.5 beauty",
+        "+25.00% social impact",
+        "+15.00% negotiation ability",
+        "+5.00% trade price improvement",
+        "x250% market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "ranke",
+        "rankd",
+        "rankc",
+        "ranka",
+        "ranks",
+        "rankss",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "ranke",
+          "rankd",
+          "rankc",
+          "ranka",
+          "ranks",
+          "rankss",
+          "ranksss"
+        ],
+        "stats": [
+          "+0.5 beauty",
+          "+25.00% social impact",
+          "+15.00% negotiation ability",
+          "+5.00% trade price improvement",
+          "x250% market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_B",
+      "name": "rankb"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual is an A-Rank elite - among the finest in existence. Their very presence commands attention, and they exude an aura of power and authority that few can match.",
+      "stats": [
+        "+1.0 beauty",
+        "+50.00% social impact",
+        "+30.00% negotiation ability",
+        "+10.00% trade price improvement",
+        "+15.00% Arrest success chance",
+        "x500% market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "ranke",
+        "rankd",
+        "rankc",
+        "rankb",
+        "ranks",
+        "rankss",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "ranke",
+          "rankd",
+          "rankc",
+          "rankb",
+          "ranks",
+          "rankss",
+          "ranksss"
+        ],
+        "stats": [
+          "+1.0 beauty",
+          "+50.00% social impact",
+          "+30.00% negotiation ability",
+          "+10.00% trade price improvement",
+          "+15.00% Arrest success chance",
+          "x500% market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_A",
+      "name": "ranka"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual holds the legendary S-Rank - a hero of incredible power. Their name is spoken with reverence, and their mere glance can silence a room. Others feel humbled in their presence.",
+      "stats": [
+        "+1.5 beauty",
+        "+75.00% social impact",
+        "+50.00% negotiation ability",
+        "+20.00% trade price improvement",
+        "+25.00% Arrest success chance",
+        "x10 market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "ranke",
+        "rankd",
+        "rankc",
+        "rankb",
+        "ranka",
+        "rankss",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "ranke",
+          "rankd",
+          "rankc",
+          "rankb",
+          "ranka",
+          "rankss",
+          "ranksss"
+        ],
+        "stats": [
+          "+1.5 beauty",
+          "+75.00% social impact",
+          "+50.00% negotiation ability",
+          "+20.00% trade price improvement",
+          "+25.00% Arrest success chance",
+          "x10 market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_S",
+      "name": "ranks"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual has transcended to SS-Rank - a demigod walking among mortals. Their power is the stuff of legends, and entire nations would pay any price to secure their loyalty. They radiate an otherworldly magnificence.",
+      "stats": [
+        "+2.0 beauty",
+        "+100.00% social impact",
+        "+75.00% negotiation ability",
+        "+35.00% trade price improvement",
+        "+40.00% Arrest success chance",
+        "x25 market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "ranke",
+        "rankd",
+        "rankc",
+        "rankb",
+        "ranka",
+        "ranks",
+        "ranksss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "ranke",
+          "rankd",
+          "rankc",
+          "rankb",
+          "ranka",
+          "ranks",
+          "ranksss"
+        ],
+        "stats": [
+          "+2.0 beauty",
+          "+100.00% social impact",
+          "+75.00% negotiation ability",
+          "+35.00% trade price improvement",
+          "+40.00% Arrest success chance",
+          "x25 market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_SS",
+      "name": "rankss"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "This individual has achieved the impossible - SSS-Rank, the absolute apex of existence. They are a god among mortals, their power beyond comprehension. Kingdoms would fall to possess them, and their very existence reshapes the world around them.",
+      "stats": [
+        "+3.0 beauty",
+        "+150.00% social impact",
+        "+100.00% negotiation ability",
+        "+50.00% trade price improvement",
+        "+60.00% Arrest success chance",
+        "x100 market value"
+      ],
+      "conflicts": [
+        "rankf",
+        "ranke",
+        "rankd",
+        "rankc",
+        "rankb",
+        "ranka",
+        "ranks",
+        "rankss"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rankf",
+          "ranke",
+          "rankd",
+          "rankc",
+          "rankb",
+          "ranka",
+          "ranks",
+          "rankss"
+        ],
+        "stats": [
+          "+3.0 beauty",
+          "+150.00% social impact",
+          "+100.00% negotiation ability",
+          "+50.00% trade price improvement",
+          "+60.00% Arrest success chance",
+          "x100 market value"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "ISEKAI RPG LEVELING",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Isekai_Rank_SSS",
+      "name": "ranksss"
     }
   ],
   "races": [
@@ -54967,59 +56185,6 @@
       "enabled": true,
       "name": "human",
       "price": 2917
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+45.00 Mass",
-          "+30% Flammability",
-          "+$1800 Market value",
-          "+5.00 Move speed",
-          "+35% Mental break threshold",
-          "+37.0C [66.6F] Max comfortable temperature",
-          "+5.0C [9.0F] Min comfortable temperature",
-          "+98% Immunity gain speed",
-          "+75 Carrying capacity",
-          "+4 Honor value",
-          "+45 Meat amount",
-          "+50 Leather amount",
-          "+100% Global learning factor",
-          "+100% Psychic sensitivity",
-          "+80% Pain shock threshold",
-          "+100% General labor speed",
-          "+100% Drug synthesis speed",
-          "+100% Medical tend speed",
-          "+100% Medical tend quality",
-          "+100% Medical surgery success chance",
-          "+80.00% Negotiation ability",
-          "+100% Sell price multiplier",
-          "+100.00% Trade price improvement",
-          "+100.00% Social impact",
-          "+120% Global work speed",
-          "+90% Eating speed",
-          "+80% Construction speed",
-          "+100% Mechanoid shredding efficiency",
-          "+100% Mechanoid shredding speed",
-          "+80% Smelting speed",
-          "+100% Research speed",
-          "+100% Mining speed",
-          "+100% Mining yield",
-          "+100% Butchery efficiency",
-          "+100% Butchery speed",
-          "+1.0 Cooking speed",
-          "+100% Rest rate multiplier",
-          "+100% Plant work speed",
-          "+100% Plant harvest yield"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A humanoid species with cat-like ears and cat-tailed limbs, the kiiro race. \n\nAs natives who have lived on this planet for thousands of years, the technology of the kiiros has developed slowly after reaching the medieval level: they always have more things to do than to develop science and technology, such as napping, gossiping, sunbathing and enjoying leisure time. Even when they moved out of their free time to work, they were more than happy to do something related to art. Because of their gentle and non-combative character, their society has always maintained a high degree of harmony and stability throughout their long history, with very few conflicts and disputes, and this has resulted in the fact that although they have the gift dexterous in fighting, they are not good at it. \n\nBut all this began to change when the rough outsiders landed on this planet and got a firm foothold: lack of combat experience and training, technology has not been developed to a great extent, the kiiros appear very powerless in the face of foreign enemy attacks, many villages and towns were attacked and fallen, the survival of the kiiros once fell into a crisis, which forced the kiiros to give up their peaceful life, and set out on a difficult and long road of living. \n\nHowever, the invasion of foreign enemies not only spread the war, but also brought the opportunity of technological development to kiiros. With the exposure to the technology brought by the outsiders, the technological level of the kiiros has exploded in a short period of time through introduction and imitation, and the seeds of the industrial age have quietly sprouted within this ancient and backward race......",
-      "defName": "Kiiro_Race",
-      "enabled": true,
-      "name": "kiiro race",
-      "price": 3000
     },
     {
       "data": {

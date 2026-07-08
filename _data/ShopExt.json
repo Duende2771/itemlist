@@ -2696,13 +2696,13 @@
           "x130% research speed"
         ],
         "canBypassLimit": true,
-        "customName": false,
+        "customName": true,
         "karmaTypeForRemoving": null,
         "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
       "defName": "VTE_Prodigy",
-      "name": "prodigy"
+      "name": "prodigy(vte)"
     },
     {
       "canAdd": true,
@@ -55673,8 +55673,8 @@
       "name": "sealedpower"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -55725,8 +55725,8 @@
       "name": "rankf"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -55775,8 +55775,8 @@
       "name": "ranke"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -55821,8 +55821,8 @@
       "name": "rankd"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -55871,8 +55871,8 @@
       "name": "rankc"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -55923,8 +55923,8 @@
       "name": "rankb"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -55977,8 +55977,8 @@
       "name": "ranka"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -56031,8 +56031,8 @@
       "name": "ranks"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -56085,8 +56085,8 @@
       "name": "rankss"
     },
     {
-      "canAdd": true,
-      "canRemove": true,
+      "canAdd": false,
+      "canRemove": false,
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
@@ -56159,7 +56159,7 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": true,
+      "enabled": false,
       "name": "human",
       "price": 2917
     },
@@ -56182,7 +56182,7 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "CreepJoiner",
-      "enabled": true,
+      "enabled": false,
       "name": "human",
       "price": 2917
     },
@@ -56235,7 +56235,7 @@
       },
       "description": "These moon-dwelling beings, bearing the genetic legacy of rabbits, have evolved not merely as survivors, but as master builders and tacticians.\n\nWith technology nearing the sophistication of a full-fledged civilization, they travel between universes in search of planets where Planetarium is found - the vital drug their species depends on. When such a world is discovered, they do not settle on the planet itself. Instead, they establish vast lunar cities on its surrounding moons, from which they begin the careful extraction of this precious resource.\n\nBut such great voyages come at a cost. As the distance between stars, and between their own kind, grows ever wider, contact with their kin is lost.\n\nThey become isolated, severed from their ancestral lines, forging ahead alone into the unknown.",
       "defName": "Rabbie",
-      "enabled": true,
+      "enabled": false,
       "name": "Rabbie",
       "price": 2667
     },

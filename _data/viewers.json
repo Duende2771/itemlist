@@ -1,0 +1,41 @@
+{
+  "total": 4,
+  "viewers": [
+    {
+      "username": "duenbot2771",
+      "karma": 100.0,
+      "coins": 100,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "1380298773"
+      }
+    },
+    {
+      "username": "killerpandagamer",
+      "karma": 100.0,
+      "coins": 100,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "70730674"
+      }
+    },
+    {
+      "username": "duende2771",
+      "karma": 100.0,
+      "coins": 9600,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "523501551"
+      }
+    },
+    {
+      "username": "nightbot",
+      "karma": 100.0,
+      "coins": 100,
+      "isBanned": false,
+      "platformIds": {
+        "twitch": "19264788"
+      }
+    }
+  ]
+}
